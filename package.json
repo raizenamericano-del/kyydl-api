@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "prestart": "python3 -m pip install -q yt-dlp 2>/dev/null || pip3 install -q yt-dlp 2>/dev/null || true",
     "start": "node server.js"
   },
   "dependencies": {
