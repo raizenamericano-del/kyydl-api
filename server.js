@@ -88,5 +88,5 @@ function detectPlatform(url) {
   return 'Unknown';
 }
 
-const PORT = process.env.PORT || 5232;
+const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => console.log(`🔥 KyyDL API on port ${PORT}`));
